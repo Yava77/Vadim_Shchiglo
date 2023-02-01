@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zxx">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
@@ -15,6 +15,11 @@
     </style>
 </head>
 <body>
+    <h3>Тег &lt;dl&gt; &lt;dt&gt; &lt;dd&gt;</h3>
+    <p>Тег &lt;dl&gt; входит в тройку элементов &lt;dl&gt;, &lt;dt&gt;, &lt;dd&gt;, предназначенных для создания списка определений. <br>
+         Каждый такой список начинается с контейнера &lt;dl&gt;, куда входит тег &lt;dt&gt; создающий термин и тег &lt;dd&gt; <br>
+             задающий определение этого термина.</p>
+    <p>Отображение на сайте ниже:</p>
     <dl>
         <dt>VK</dt>
         <dd>«ВКонта́кте» (международное название — VK) — российская социальная сеть со  <br>
@@ -28,6 +33,14 @@
              компания Facebook Inc. (ныне Meta) приобрела сервис примерно за 1 миллиард  <br>
              долларов США наличными и акциями.</dd>
     </dl>
+    <hr>
+    <h3>Тег &lt;pre&gt;</h3>
+    <p>Элемент &lt;pre&gt; определяет блок предварительно форматированного текста. Такой текст отображается обычно моноширинным
+         шрифтом и со всеми пробелами между словами. По умолчанию, любое количество пробелов идущих в коде подряд, на
+          веб-странице показывается как один. Тег &lt;pre&gt; позволяет обойти эту особенность и отображать текст как требуется
+             разработчику. В отличие от тега &lt;plaintext&gt;, использование которого осуждается в HTML 4, внутри контейнера &lt;pre&gt;
+                 допустимо применять любые теги кроме следующих: &lt;big&gt;, &lt;img&gt;, &lt;object&gt;, &lt;small&gt;, &lt;sub&gt; и &lt;sup&gt;.</p>
+                 <p>Отображение на сайте ниже:</p>
     <pre>
         ______________11________1¶1__________________
         _____________1¶¶¶1___1¶¶11¶____¶¶¶¶¶_________
@@ -75,6 +88,15 @@
         _¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶
         ___¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶
     </pre>
+    <hr>
+    <h3>Тег &lt;code&gt;</h3>
+    <p>Тег &lt;code&gt; предназначен для отображения одной или нескольких строк текста, который представляет собой <br>
+         программный код. Сюда относятся имена переменных, ключевые слова, тексты функции и т.д. Браузеры обычно <br>
+          отображают содержимое контейнера &lt;code&gt; как моноширинный текст уменьшенного размера. <br>
+            <br>
+        В отличие от тега &lt;pregt; дополнительные пробелы внутри контейнера &lt;code&gt; не учитываются, так же, как и переносы <br>
+             текста. Поэтому используйте тег &lt;br&gt; или &lt;p&gt; для создания переносов.</p> 
+    <p>Отображение на сайте ниже:</p>
     <p>Обычный текст</p>
     <p><code>
         function checkParent (src, dest) {<br>
@@ -84,15 +106,45 @@
             }<br>
             return null<br>
     </code></p>
+    <hr>
+    <h3>Тег &lt;tt&gt;</h3>
+    <p>Контейнер &lt;tt&gt; отображает текст моноширинным текстом. Этот тег относится к группе тегов физического форматирования.</p>
+        <p>Отображение на сайте ниже:</p>
+        <p><tt>Lorem ipsum dolor sit amet</tt></p>
+        <hr>
+        <h3>Тег &lt;kbd&gt;</h3>
+        <p>Тег &lt;kbd&gt; используется для обозначения текста, который набирается на клавиатуре или для названия клавиш. <br>
+             Браузеры обычно помечают текст в контейнере &lt;kbd&gt; моноширинным шрифтом.</p>
+             <p>Отображение на сайте ниже:</p>
     <kbd>Alt</kbd> + <kbd>F4</kbd>
+    <hr>
+    <h3>Тег &lt;var&gt;</h3>
+    <p>Тег &lt;var&gt; используется для выделения переменных компьютерных программ. Браузеры обычно помечают текст <br>
+         в контейнере &lt;var&gt; курсивным начертанием.</p>
+            <p>Отображение на сайте ниже:</p>
     <p><var>a</var> + b</p>
     <p><var>a</var> + b</p>
+    <hr>
+    <h3>Тег &lt;sup&gt;</h3>
+    <p>Отображает шрифт в виде верхнего индекса. Шрифт при этом отображается выше базовой линии текста и уменьшенного размера.</p>
+    <p>Отображение на сайте ниже:</p>
     <p>
         2<sup>22</sup> x<sup>2</sup>
     </p>
+    <hr>
+    <h3>Тег &lt;sub&gt;</h3>
+    <p>Отображает шрифт в виде нижнего индекса. Текст при этом располагается ниже базовой линии остальных символов <br>
+         строки и уменьшенного размера.</p>
+         <p>Отображение на сайте ниже:</p>
     <p>
         3<sub>7</sub> x<sub>4</sub>
     </p>
+    <hr>
+    <h3>Тег &lt;blockquote&gt;</h3>
+    <p>Тег &lt;blockquote&gt; предназначен для выделения длинных цитат внутри документа. Текст, обозначенный этим тегом, <br>
+         традиционно отображается как выровненный блок с отступами слева и справа (примерно по 40 пикселов), <br>
+          а также с отбивкой сверху и снизу.</p>
+          <p>Отображение на сайте ниже:</p>
     <blockquote>
         <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,  <br>
         sed diem nonummy nibh euismod tincidunt ut lacreet dolore magna aliguam erat <br>
@@ -100,6 +152,9 @@
         suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
     </blockquote>
     <hr>
+    <h3>Тег &lt;q&gt;</h3>
+    <p>Тег &lt;q&gt; используется для выделения в тексте цитат. Содержимое контейнера автоматически отображается в браузере в кавычках.</p>
+    <p>Отображение на сайте ниже:</p>
     <p>
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. <br>
          Laudantium nobis <q>ratione tempore corporis facilis, quos molestiae, <br>
@@ -107,21 +162,68 @@
            nostrum perspiciatis veniam libero labore ipsam!
     </p>
     <hr>
+    <h3>&lt;Тег ins&gt;</h3>
+    <p>Тег &lt;ins&gt; предназначен для выделения текста, который был добавлен в новую версию документа. <br>
+         Подобное форматирование позволяет отследить, какие изменения в тексте документа были сделаны.</p>
+         <p>Отображение на сайте ниже:</p>
     <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
         <ins>Nulla sit reiciendis commodi beatae.</ins>Odio incidunt dolores consectetur, <br>
-          assumenda cumque eveniet praesentium <del>temporibus enim, voluptas, <br>
-           delectus hic quae dignissimos facere ratione!</del>
+          assumenda cumque eveniet praesentium temporibus enim, voluptas, <br>
+           delectus hic quae dignissimos facere ratione!
     </p>
     <hr>
-    <address>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
-         Placeat aperiam quam at voluptatem, consequatur adipisci expedita <br>
-          ab deserunt eos, rem accusantium vel, quos natus? Pariatur minus <br>
-           magnam perspiciatis porro quam?
-    </address>
-    <hr>
-    <p>метоксихлор<wbr>диэтиламино<wbr>метил<wbr>бутил<wbr>амино<wbr>акридин</p>
+    <h3>Тег &lt;del&gt;</h3>
+    <p>Тег &lt;del&gt; используется для выделения текста, который был удален в новой версии документа. <br>
+         Подобное форматирование позволяет отследить, какие изменения в тексте документа были сделаны. <br>
+          Браузеры обычно помечают текст в контейнере &lt;del&gt; как перечеркнутый.</p>
+          <p>Отображение на сайте ниже:</p>
+          <p>
+            Lorem, ipsum <del>dolor sit amet consectetur adipisicing elit. <br>
+             Laudantium nobis ratione</del> tempore corporis facilis, quos molestiae, <br>
+              officia aliquid quisquam pariatur repellat reprehenderit dolorum eius <br>
+               nostrum perspiciatis veniam libero labore ipsam!
+        </p>
+        <hr>
+        <h3>&lt;Тег address&gt;</h3>
+        <p>Тег &lt;address&gt; предназначен для хранения информации об авторе и может включать в себя <br>
+             любые элементы HTML вроде ссылок, текста, выделений и т.д. Планируется, что поисковые <br>
+              системы будут анализировать содержимое этого тега для сбора информации об авторах сайтов. <br>
+                <br>
+            По умолчанию текст внутри контейнера &lt;address&gt; отображается курсивным начертанием. <br>
+                 Если эта особенность не требуется, используйте стили для изменения начертания шрифта.</p>
+                <p>Отображение на сайте ниже:</p>
+                <address>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
+                    Placeat aperiam quam at voluptatem, consequatur adipisci expedita <br>
+                    ab deserunt eos, rem accusantium vel, quos natus? Pariatur minus <br>
+                    magnam perspiciatis porro quam?
+                </address>
+                <hr>
+                <h3>&lt;nobr&gt;</h3>
+                <p>Тег &lt;nobr&gt; уведомляет браузер отображать текст без переносов. Если этого тега в коде документа нет, <br>
+                     а также имеются переводы строки, они игнорируются и текст выравнивается по левому краю окна браузера <br>
+                      или родительского элемента. При этом браузер переводы строк расставляет автоматически, чтобы текст <br>
+                       полностью поместился по ширине окна. Использование тега &lt;nobr&gt; заставляет отображать текст без <br>
+                         переносов, одной строкой, что может привести к появлению горизонтальной полосы прокрутки. <br>
+                          Пользователям придется прокручивать текст по горизонтали, чтобы увидеть его полностью, <br>
+                           чего обычно делать никто не любит.</p>
+                           <p>Отображение на сайте ниже:</p>
+                           <p>
+                            <nobr>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, 
+                                sed diem nonummy nibh euismod tincidunt ut lacreet dolore 
+                                magna aliguam erat volutpat.</nobr> Ut wisis enim ad minim veniam, 
+                                quis nostrud exerci tution ullamcorper suscipit lobortis nisl 
+                                ut aliquip ex ea commodo consequat.
+                           </p>
+                           <hr>
+                           <h3>&lt;Тег wbr&gt;</h3>
+                           <p>
+                            Тег &lt;wbr&gt; указывает браузеру место, где допускается делать перенос строки в тексте, <br>
+                             если этого требует ширина родительского элемента.
+                           </p>
+                           <p>Отображение на сайте ниже:</p>
+                           <p>метоксихлор<wbr>диэтиламино<wbr>метил<wbr>бутил<wbr>амино<wbr>акридин</p>
     
 </body>
 </html>
