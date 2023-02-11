@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'Poiret One';
+    src: url('PoiretOne-Regular.eot');
+    src: url('PoiretOne-Regular.eot?#iefix') format('embedded-opentype'),
+        url('PoiretOne-Regular.woff2') format('woff2'),
+        url('PoiretOne-Regular.woff') format('woff'),
+        url('PoiretOne-Regular.ttf') format('truetype'),
+        url('PoiretOne-Regular.svg#PoiretOne-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cormorant';
+    src: url('Cormorant-LightItalic.eot');
+    src: url('Cormorant-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('Cormorant-LightItalic.woff2') format('woff2'),
+        url('Cormorant-LightItalic.woff') format('woff'),
+        url('Cormorant-LightItalic.ttf') format('truetype'),
+        url('Cormorant-LightItalic.svg#Cormorant-LightItalic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
