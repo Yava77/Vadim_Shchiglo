@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .flexbox {
+            display: flex;
+            flex-direction: row;
+            flex-wrap:wrap;
+        }
+        .first-last {
+            background: blue;
+            background-color: blue;
+            width: 100%;
+            text-align: center;
+            color:aqua;
+        }
+        .flexbox__item1 {
+            background: yellow;
+            height: 400px;
+            float:left;
+        }
+        .flexbox__item2 {
+            width: 73%;
+            margin-left: 13px;;
+            float:left;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="flexbox">
+        <div class="first-last">
+        <h2>ПРИВЕТ УЧАСТНИКАМ СОРЕВНОВАНИЙ!</h2>
+        </div>
+        <div class="flexbox__item1"> 
+                <h3>Виды спорта:</h3>
+                    <ul>
+                        <li>конькобежный спорт</li>
+                        <li>биатлон</li>
+                        <li>футбол</li>
+                        <li>стрельба из лука</li>
+                        <li>прыжки в длину</li>
+                        <li>прыжки в высоту</li>
+                    </ul>
+        </div>
+        <div class="flexbox__item2" style="background: url(../img/ball.png) repeat-y right;">
+                <h3 style="text-align: center;">ФУТБОЛ</h3>
+                <img src="../img/foot.png" style="float:left; padding-right: 20px;">
+                <p>Футбол — командный вид спорта, в котором
+                     целью является забить мяч в ворота
+                      соперника ногами или другими частями тела
+                       большее количество раз, чем команда соперника.</p>
+                       <p>Суть игры в том, чтобы за 90 минут загнать больше мячей в чужие ворота,
+                         чем другая команда. Гол засчитывается, если снаряд пересек линию ворот
+                          и не было нарушений со стороны забившей команды. Судья следит за соблюдением
+                           правил и наказывает за нарушения. В течение матча разрешается до трех замен с каждой стороны.
+                         </p>
+        </div>
+            <div class="first-last">
+                <h2>ГЛАВНОЕ НЕ ПОБЕДА, А УЧАСТИЕ!</h2>
+            </div>
+    </div>
+</body>
+</html>
